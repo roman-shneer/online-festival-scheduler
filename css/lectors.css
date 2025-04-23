@@ -1,0 +1,136 @@
+
+
+
+  
+.hd-lector-td1{
+    width:40%;
+}
+.hd-lector-td2{
+    width:60%;
+}
+/* popup css */
+#hd-lector-popup{
+    position: fixed;
+    z-index: 999;
+    position:absolute;
+    max-width:60vw;
+   
+}
+.hd-lector-popup-layer{
+    background: rgba(0,0,0,0.2);
+    padding:2em 4em;
+    border-radius: var(--border-radius);
+}
+.hd-lector-popup-div{
+    padding:1em;
+    border-radius: var(--border-radius);
+    background: #FFF;
+    position:relative;
+    max-height: 100%;
+}
+.hd-lector-popup-close{
+    position: absolute;
+    right:0;
+    top:0;
+    cursor:pointer;
+    line-height:1;
+    width:2em;
+    height:2em;
+    background: url('../images/close.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;  
+    z-index: 1;  
+}
+.hd-lector-table{
+    display:table;
+   
+    width:100%;
+}
+.hd-lector-td1,.hd-lector-td2{
+    display:table-cell;
+    width:150px;    
+    vertical-align: top;
+}
+.hd-lector-td2{
+    width:calc(100% - 150px);
+    vertical-align:middle;
+    padding-left: 5%;
+}
+.hd-lector-image{
+    border-radius:50%;  
+}
+.hd-lector-name{
+    font: normal normal normal 40px/30px ZCOOL XiaoWei; 
+    color: #2B2B2B;
+    line-height: 1;
+}
+.hd-lector-type{
+    line-height: 1;
+    font: normal normal normal 20px/24px Rubik;
+    letter-spacing: 0px;
+    color: var(--dark-gray);
+    color:gray;
+}
+.hd-lections-box{
+    width:60%;
+    margin-left:40%;
+}
+.hd-dashed-border{
+    border-bottom: dashed gray 1px;
+    margin:1em 0;
+}
+.hp-lector-description{
+    font: normal normal normal 22px Rubik;
+    color: var(--dark-gray);
+    overflow-y: auto;
+    
+    scrollbar-width: thin;
+   
+}
+.hd-lector-flag{
+    width:2vh;
+    margin-right:10px;
+}
+
+@media only screen and (max-width:1200px) 
+{
+     .hd-lector-popup-close{
+        background-color: var(--main-bg-color);      
+        border-radius: 50%;
+        top:-0.9em;
+        right:0.5em;
+        background-image: url('../images/close-white.svg');
+    }
+    .hp-lector-description{
+        max-height:fit-content;
+      
+        height: 100%;
+    }
+   
+    .hd-lection-title{
+        font: normal normal medium 18px/22px Rubik;
+        line-height: 1.2em;
+    }
+    .hd-lection-info{
+        font-size:1em;
+        line-height: 1em;
+    }
+    .hd-lections-box{
+        margin-left:0;
+        width:100%;    
+    }
+    .hd-lector-name{
+        font: normal normal normal 30px/30px ZCOOL XiaoWei;
+    }
+    #hd-lector-popup{
+        top:0;
+        left:0!important;
+        max-width: 100%;
+        max-height: 100%;
+        padding:0;
+    }
+    .hd-lector-popup-layer{
+        padding:5em 0.5em;
+        border-radius:0;        
+    }
+}

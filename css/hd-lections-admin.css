@@ -1,0 +1,53 @@
+.hd-admin-label{
+    width:150px;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.hd-admin-input{
+    width:200px;
+    display:inline-block
+}
+.hd-admin-input-half{
+    width:85px;
+    display:inline-block
+}
+.hp-admin-inline-block{
+    display: inline-block;
+}
+.hd-popup-form{
+    position:fixed;
+    width:40vw;
+    top:30vh;
+    left:30vw;
+    background: white;
+    padding:20px;
+    border:solid black 1px;
+}
+.hd-note{
+    font-size: 12px;
+    color:gray;
+    margin-left:150px;
+}
+.hd-collapse{
+    border-collapse:collapse;
+}
+.hd-collapse td{
+    padding:5px;
+}
+.margin-right-1{
+    margin-right:1em;
+}
+.margin-bottom-1{
+    margin-bottom:1em;
+}
+.hd-loading{
+    position: fixed;
+    top:45%;
+    left:45%;
+    content:'wait...';
+    border:solid black 1px;
+    background: white;
+    border-radius: 10px;
+    padding:10px;
+}

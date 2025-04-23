@@ -1,0 +1,16 @@
+<svg width="2592" height="730.077" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient gradientUnits="objectBoundingBox" y2="1" x2="0.5" x1="0.5" id="linear-gradient">
+   <stop stop-color="#d0bbd5" offset="0"/>
+   <stop stop-color="#f7f6ec" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" data-name="Сгруппировать 113" id="Сгруппировать_113">
+   <path stroke="null" fill="rgba(242,175,133,0.32)" d="m38.2678,-0.00103s494.75053,116.246 1187.23005,55.494s1013.88055,-12.037 1095.5617,14.588c2.66445,89.254 0,154.26 0,154.26l-2282.79175,0l0,-224.342z" data-name="Контур 99" id="Контур_99"/>
+   <path stroke="null" opacity="0.304" fill="#e59eda" d="m25.20595,35.7301c561.88957,-47.554 515.9466,28.356 1243.06571,-3.5s1068.5873,91.148 1068.5873,91.148l0,112.74l-2311.65301,5.458s-2.71438,-97.903 0,-205.846z" data-name="Контур 100" id="Контур_100"/>
+   <path stroke="null" fill="url(#linear-gradient)" opacity="0.995" d="m2321.05954,44.58493c-436.66418,65.8 -835.97261,45.247 -1382.22505,21.692s-900.56669,17.883 -900.56669,17.883l0,645.917l2282.79175,0s-2.61273,-572.896 0,-685.492z" data-name="Контур 101" id="Контур_101"/>
+  </g>
+ </g>
+</svg>
